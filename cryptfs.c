@@ -1552,7 +1552,7 @@ static int wait_and_unmount(char *mountpoint, bool kill)
     return rc;
 }
 
-#define DATA_PREP_TIMEOUT 200
+#define DATA_PREP_TIMEOUT 240
 static int prep_data_fs(void)
 {
     int i;
